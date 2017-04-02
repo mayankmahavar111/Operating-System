@@ -49,8 +49,6 @@ obj/shell.o:src/shell.c
 	$(COMPILER) $(CFLAGS) src/shell.c -o obj/shell.o
 
 build:all
-	#Activate the install xorr if you do not have it already installed
-	#sudo apt-get install xorriso
 	rm iknow/boot/grub/ -r -f
 	mkdir iknow/boot/grub/
 	echo set default=0 >> iknow/boot/grub/grub.cfg

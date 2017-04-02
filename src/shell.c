@@ -3,9 +3,15 @@ void launch_shell(int n)
 {
 	string ch = (string) malloc(200); // util.h
 	int counter = 0;
+    print("Your Name User \n \n");
+    ch=readStr();
+    clearScreen();
+    print("Welcome ");
+    print(ch);
+    print("\n");
 	do
 	{
-			print("NIDOS (");
+			print("Google (");
 			print(int_to_string(n));
 			print(")> ");
 		    ch = readStr(); //memory_copy(readStr(), ch,100);
