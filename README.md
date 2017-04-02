@@ -13,5 +13,5 @@ chmod 777 setup.sh
 
 this will install all the necessary requirements 
 
-now for running the operating system type make in the operating system directory
+now for running the operating system type "make" in the operating system directory
 
